@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Create a Chrome Extension with Typescript",
+  "version": "1.0.0",
+  "action": {},
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["scripting", "activeTab"]
+}
